@@ -1,0 +1,37 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background: #092532;
+  border-radius: 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.card img {
+  position: relative;
+  width: 200px;
+}
+
+.card .btn-card {
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 30px;
+  color: #fff;
+  background: #092532;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+}
