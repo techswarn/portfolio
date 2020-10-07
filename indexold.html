@@ -18,13 +18,26 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./utility.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swarn.Net</title>
+    <title>Swarn.net</title>
   </head>
   <body>
-    <div class="sidebar">
-      <div>
-        <h1 class="title">I'm <span class="title-2">Swarn</span></h1>
+    <header class="hero">
+      <div class="navbar" id="navbar">
+        <h1 class="logo">Swarn.<span class="logo-2">net</span></h1>
+        <nav>
+          <ul>
+            <li><a href="#" class="">Projects</a></li>
+            <li>
+              <a href="https://github.com/techswarn/" class="" target="_blank"
+                ><i class="fa fa-github fa-2x" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="landing">
         <div class="content">
+          <h1>I'm Swarn</h1>
           <h2>L2 Administrator</h2>
           <p>
             Providing in-depth technical support at Tier 2 level for clients
@@ -36,35 +49,13 @@
             >Resume</a
           >
         </div>
-      </div>
-
-      <div class="social-icons">
-        <ul>
-          <li>
-            <a href="https://github.com/techswarn/" class="" target="_blank"
-              ><i class="fa fa-github fa-2x" aria-hidden="true"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/swarnsuvarna"
-              class=""
-              target="_blank"
-              ><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <main>
-      <section class="main">
-        <div class="flex-container">
+        <div class="content-projects">
           <div class="heading">
             <h2>Projects</h2>
           </div>
           <div class="projects">
             <div class="js">
-              <h4>Javascript Projects</h4>
+              <h3>Javascript Projects</h3>
               <div class="card">
                 <img src="./img/javascript.png" alt="javascript" />
                 <div class="card-contents">
@@ -77,19 +68,9 @@
                   >
                 </div>
               </div>
-
-              <div class="card">
-                <img src="./img/javascript.png" alt="javascript" />
-                <div class="card-contents">
-                  <p>Consuming with Github API using Fetch</p>
-                  <a href="./projects/js/Githubapi/" target="_blank" class=""
-                    ><button class="btn-card">Github finder</button></a
-                  >
-                </div>
-              </div>
             </div>
             <div class="angular">
-              <h4>Angular</h4>
+              <h3>Angular</h3>
               <div class="card">
                 <img src="./img/javascript.png" alt="javascript" />
                 <div class="card-contents">
@@ -102,8 +83,10 @@
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </header>
+    <main></main>
+    <footer class="footer"></footer>
   </body>
   <script
     src="https://kit.fontawesome.com/648907511b.js"
